@@ -31,17 +31,17 @@ print(num1)
 num1.remove(3)
 print(num1)
 #discard
-num1.discard(4) #it will not give error even if element which we want to delet is not available in set,
+num1.discard(4) #it will not give error even if element which we want to delete is not available in set,
 #but remove will throw error in such scenario
 num1={1,2,3}
 num2={2,3,5}
 #unions,intersection, difference
 print(num1.union(num2)   )
-#for uninon we can use below syntax
+#for union we can use below syntax
 s3= num1|num2
 print(s3)
 print(num1.intersection(num2) )
-#for this we can use &
+#for intersection we can use &
 num3= num1&num2
 print(num3)
 print("diff")
